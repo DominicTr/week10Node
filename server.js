@@ -23,7 +23,7 @@ hbs.registerHelper('menu', (link) => {
 })
 
 hbs.registerHelper('meme', () => {
-	return 'dhttps://i.kym-cdn.com/photos/images/newsfeed/000/173/576/Wat8.jpg?1315930535'
+	return 'https://i.kym-cdn.com/photos/images/newsfeed/000/173/576/Wat8.jpg?1315930535'
 })
 
 app.use((request, response, next) => {
@@ -55,7 +55,7 @@ app.get('/info', (request, response) => {
 		title: 'About page',
 		welcome: 'Hello!',
 		help: 'help!',
-		meme2: 'dhttp://www.themarketingsage.com/wp-content/uploads/2015/08/about-me-leon-severan-we-buy-houses.jpg',
+		meme2: 'http://www.themarketingsage.com/wp-content/uploads/2015/08/about-me-leon-severan-we-buy-houses.jpg',
 		home: '/'
 	});
 });
